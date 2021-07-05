@@ -1,3 +1,67 @@
+.heroandmiddle{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 50px;
+    color: rgb(58, 58, 58);
+    
+}
+
+.half-width img{
+    width: 450px;
+}
 h1{
-    color: red;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#hero-title{
+    padding-top: 30px;
+}
+
+.title-color{
+    color: orangered;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#f12711, #df9800);
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 5px 30px 0px 5px;
+}
+.button:hover{
+    background-image: linear-gradient(#ee0979,#ff6a00);
+}
+
+#middleimg{
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+#middletitle{
+    padding-top: 70px;
+}
+
+#background-middle{
+    background-image: url(images/Frame58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featured-food{
+display: flex;
+width: 30%;
+}
+
+.threeitem{
+    padding-left: 10%;
+}
+
+.threephoto{
+    width: 250px;
 }
