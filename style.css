@@ -1,5 +1,6 @@
 .heroandmiddle{
     display: flex;
+    padding-bottom: 50px;
 }
 .half-width{
     width: 40%;
@@ -55,13 +56,42 @@ h1{
 
 .featured-food{
 display: flex;
-width: 30%;
+padding-bottom: 50px;
+
+}
+
+.recipies-section{
+    padding-top: 50px;
 }
 
 .threeitem{
-    padding-left: 10%;
+    width: 20%;
+    padding: 2%; 
+    margin: 50px 0px 50px 110px; 
+    box-shadow: 10px 5px 40px rgb(46, 46, 46);
+    border-radius: 30px;
+    
 }
 
 .threephoto{
-    width: 250px;
+    width: 300px;
+}
+
+.myrecipies{
+    text-align: center;
+}
+
+.fan{
+    display: flex;
+    box-shadow: 10px 5px 30px rgb(46, 46, 46);
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.fancontent{
+    width: 20%;
+    padding-left: 5%; 
+    text-align: center;
+
 }
