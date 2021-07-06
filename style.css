@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .heroandmiddle{
     display: flex;
 }
@@ -108,4 +112,38 @@ padding-bottom: 50px;
 
 #network{
     color: gray;
+}
+
+.team-title{
+text-align: center;
+padding: 20px;
+}
+
+.mainteam{
+    background-image: url(images/Frame59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.instructions{
+    display: flex;
+    
+}
+
+.team-section{
+    width: 20%;
+    padding: 2%; 
+    margin: 50px 0px 50px 110px; 
+    box-shadow: 0px 10px 5px rgb(85, 85, 85);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.team{
+    width: 200px;
+    height: 300px;
+    border-radius: 50px 10px 50px 10px;
+}
+h3{
+    color: rgb(61, 61, 61);
+    font-weight: 600;
 }
