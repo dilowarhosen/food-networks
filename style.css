@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+        font-family: 'Poppins', sans-serif;
 }
 
 .heroandmiddle{
@@ -146,4 +147,21 @@ padding: 20px;
 h3{
     color: rgb(61, 61, 61);
     font-weight: 600;
+}
+
+.mapsection{
+    display: flex;
+    background-image: url(images/Frame58.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+.half-width-last{
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: rgb(58, 58, 58);
+    margin-left: 10px;
 }
