@@ -83,15 +83,30 @@ padding-bottom: 50px;
 
 .fan{
     display: flex;
-    box-shadow: 10px 5px 30px rgb(46, 46, 46);
+    box-shadow: 10px 0px 20px rgb(46, 46, 46);
     width: 90%;
     margin-left: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .fancontent{
     width: 20%;
-    padding-left: 5%; 
+    padding-left: 10%; 
     text-align: center;
 
+}
+.footercontent{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    padding: 20px 0px 50px 0px;
+    
+}
+
+.footercontent p{
+    color: white;
+}
+
+#network{
+    color: gray;
 }
